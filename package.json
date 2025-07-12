@@ -1,5 +1,25 @@
 {
   "dependencies": {
-    "mongoose": "^8.16.0"
-  }
+    "mongoose": "^8.16.0",
+    "sass": "^1.89.2"
+  },
+  "name": "mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdmaR-05/Thinkboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdmaR-05/Thinkboard/issues"
+  },
+  "homepage": "https://github.com/rdmaR-05/Thinkboard#readme",
+  "description": ""
 }
